@@ -8,7 +8,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { aboutMe } from "@/data/portfolio";
+import { aboutMe, projects, skills } from "@/data/portfolio";
 import { getTypeColor, getTypeTextColor, capitalize, animationVariants } from "@/utils/pokemon";
 
 export default function AboutSection() {
@@ -169,11 +169,11 @@ export default function AboutSection() {
                 <h3 className="font-bold text-lg mb-4 text-center">Trainer Stats</h3>
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div>
-                    <div className="text-2xl font-bold text-primary">6</div>
+                    <div className="text-2xl font-bold text-primary">{projects.length}</div>
                     <div className="text-sm text-muted-foreground">Projects</div>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-primary">6</div>
+                    <div className="text-2xl font-bold text-primary">{skills.length}</div>
                     <div className="text-sm text-muted-foreground">Skills</div>
                   </div>
                   <div>
