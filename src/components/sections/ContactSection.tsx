@@ -100,7 +100,7 @@ export default function ContactSection() {
             {/* Quick Contact Buttons */}
             <div className="space-y-3">
               <Button 
-                className="w-full justify-start" 
+                className="w-full justify-start cursor-pointer" 
                 size="lg"
                 onClick={() => window.location.href = `mailto:${aboutMe.email}`}
               >
@@ -111,7 +111,7 @@ export default function ContactSection() {
               {aboutMe.github && (
                 <Button 
                   variant="outline" 
-                  className="w-full justify-start" 
+                  className="w-full justify-start cursor-pointer" 
                   size="lg"
                   onClick={() => window.open(aboutMe.github, '_blank')}
                 >
@@ -123,7 +123,7 @@ export default function ContactSection() {
               {aboutMe.linkedin && (
                 <Button 
                   variant="outline" 
-                  className="w-full justify-start" 
+                  className="w-full justify-start cursor-pointer" 
                   size="lg"
                   onClick={() => window.open(aboutMe.linkedin, '_blank')}
                 >
@@ -247,7 +247,7 @@ export default function ContactSection() {
                     
                     <Button 
                       type="submit" 
-                      className="w-full" 
+                      className="w-full cursor-pointer" 
                       size="lg"
                       disabled={isSubmitting}
                     >
@@ -258,8 +258,7 @@ export default function ContactSection() {
                         </>
                       ) : (
                         <>
-                          <span className="mr-2">🚀</span>
-                          Send Message
+                          <span className="mr-2">Send Message</span>
                         </>
                       )}
                     </Button>

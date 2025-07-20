@@ -67,7 +67,7 @@ export default function Footer() {
               <Button
                 variant="ghost"
                 size="sm"
-                className="justify-start px-0 h-auto"
+                className="justify-start px-0 h-auto cursor-pointer"
                 onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 About Me
@@ -75,7 +75,7 @@ export default function Footer() {
               <Button
                 variant="ghost"
                 size="sm"
-                className="justify-start px-0 h-auto"
+                className="justify-start px-0 h-auto cursor-pointer"
                 onClick={() => document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Skills
@@ -83,7 +83,7 @@ export default function Footer() {
               <Button
                 variant="ghost"
                 size="sm"
-                className="justify-start px-0 h-auto"
+                className="justify-start px-0 h-auto cursor-pointer"
                 onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Projects
@@ -91,7 +91,7 @@ export default function Footer() {
               <Button
                 variant="ghost"
                 size="sm"
-                className="justify-start px-0 h-auto"
+                className="justify-start px-0 h-auto cursor-pointer"
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Contact
@@ -106,7 +106,7 @@ export default function Footer() {
               <Button
                 variant="ghost"
                 size="sm"
-                className="justify-start px-0 h-auto"
+                className="justify-start px-0 h-auto cursor-pointer"
                 onClick={() => window.location.href = `mailto:${aboutMe.email}`}
               >
                 📧 Email
@@ -115,7 +115,7 @@ export default function Footer() {
                 <Button
                   variant="ghost"
                   size="sm"
-                  className="justify-start px-0 h-auto"
+                  className="justify-start px-0 h-auto cursor-pointer"
                   onClick={() => window.open(aboutMe.github, '_blank')}
                 >
                   📱 GitHub
@@ -125,7 +125,7 @@ export default function Footer() {
                 <Button
                   variant="ghost"
                   size="sm"
-                  className="justify-start px-0 h-auto"
+                  className="justify-start px-0 h-auto cursor-pointer"
                   onClick={() => window.open(aboutMe.linkedin, '_blank')}
                 >
                   💼 LinkedIn
@@ -150,7 +150,7 @@ export default function Footer() {
                 variant="outline"
                 size="sm"
                 onClick={generateNewFact}
-                className="ml-4"
+                className="ml-4 cursor-pointer"
               >
                 New Fact ⚡
               </Button>

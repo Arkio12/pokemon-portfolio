@@ -96,7 +96,7 @@ export default function AboutSection() {
                   variant="ghost" 
                   size="sm"
                   onClick={() => window.open(aboutMe.github, '_blank')}
-                  className="flex items-center space-x-2"
+                  className="flex items-center space-x-2 cursor-pointer"
                 >
                   <span>📱</span>
                   <span>GitHub</span>
@@ -107,7 +107,7 @@ export default function AboutSection() {
                   variant="ghost" 
                   size="sm"
                   onClick={() => window.open(aboutMe.linkedin, '_blank')}
-                  className="flex items-center space-x-2"
+                  className="flex items-center space-x-2 cursor-pointer"
                 >
                   <span>💼</span>
                   <span>LinkedIn</span>
@@ -117,7 +117,7 @@ export default function AboutSection() {
                 variant="ghost" 
                 size="sm"
                 onClick={() => window.location.href = `mailto:${aboutMe.email}`}
-                className="flex items-center space-x-2"
+                className="flex items-center space-x-2 cursor-pointer"
               >
                 <span>📧</span>
                 <span>Email</span>
