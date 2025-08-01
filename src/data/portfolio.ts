@@ -49,10 +49,9 @@ export const samplePokemon: Pokemon[] = [
   }
 ];
 
-// About me data - customize this with your information
 export const aboutMe: AboutMe = {
   name: "Andrew Glico",
-  title: "Full Stack Developer & Pokemon Trainer",
+  title: "Front-end Developer",
   description: "I'm a passionate developer who loves creating digital experiences as much as I love catching Pokemon! With expertise in modern web technologies, I build applications that are both functional and fun. When I'm not coding, you can find me exploring new Pokemon regions or planning my next team strategy.",
   email: "andrewglico790@gmail.com",
   github: "https://github.com/yourusername",
@@ -65,36 +64,36 @@ export const skills: Skill[] = [
   {
     name: "React",
     level: 90,
-    pokemon: samplePokemon[0] // Pikachu - electric like React's energy
+    pokemon: samplePokemon[0] 
   },
   {
     name: "TypeScript",
     level: 85,
-    pokemon: samplePokemon[5] // Mewtwo - psychic like TypeScript's intelligence
+    pokemon: samplePokemon[5] 
   },
   {
     name: "Next.js",
     level: 80,
-    pokemon: samplePokemon[1] // Charizard - fire/flying like Next.js's power
+    pokemon: samplePokemon[1] 
   },
   {
     name: "Node.js",
     level: 75,
-    pokemon: samplePokemon[3] // Venusaur - grass/poison like Node.js's growth
+    pokemon: samplePokemon[3] 
   },
   {
     name: "CSS/Tailwind",
     level: 88,
-    pokemon: samplePokemon[2] // Blastoise - water like CSS's flow
+    pokemon: samplePokemon[2] 
   },
   {
     name: "Git",
     level: 82,
-    pokemon: samplePokemon[4] // Gengar - ghost like Git's version control
+    pokemon: samplePokemon[4] 
   }
 ];
 
-// Sample projects data
+
 export const projects: Project[] = [
   {
     id: 1,
@@ -103,7 +102,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TypeScript", "React", "PostgreSQL", "Tailwind CSS", "Git"],
     github: "https://github.com/yourusername/ecommerce-platform",
     demo: "https://pokemon-ecommerce-six.vercel.app/",
-    pokemon: samplePokemon[0] // Pikachu
+    pokemon: samplePokemon[0] 
   },
   
 ];
